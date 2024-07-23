@@ -21,7 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'integer_generator = week1.integer_generator:main',
-            'odd-even_classifier = week1.odd-even_classifier:main',
+            # 'odd-even_classifier = week1.odd-even_classifier:main',
         ],
     },
 )
