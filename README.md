@@ -1,5 +1,7 @@
 # QSTP'24
 
+ROS2 Workspace repository for ERCxQSTP'24 Tasks.
+
 ## Project Structure
 
 ```text
