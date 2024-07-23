@@ -5,7 +5,7 @@ import random
 
 class GenerateIntegerPublisher(Node):
     def __init__(self):
-        super().__init__('integer_genrator')
+        super().__init__('integer_generator')
         self.publisher_ = self.create_publisher(Int32, 'integers', 10)
         timer_period = 1.0
         self.timer = self.create_timer(timer_period, self.generate_random_number)
