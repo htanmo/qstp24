@@ -15,7 +15,7 @@ class OddEvenClassifier(Node):
     def listener_callback(self, msg):
         result = "odd" if msg.data & 1 else "even"
         new_msg = String()
-        new_msg = f"{msg.data} is {result}"
+        new_msg.data = f"{msg.data} is {result}"
         self.publisher_.publish(new_msg)
         self.get_logger().info(f"Publishing: {new_msg.data}")
 

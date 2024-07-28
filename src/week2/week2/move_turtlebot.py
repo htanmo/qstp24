@@ -1,5 +1,5 @@
 import rclpy
-import rclpy.node import Node
+from rclpy.node import Node
 from geometry_msgs.msg import Twist 
 
 class  MoveTurtleBot(Node):
