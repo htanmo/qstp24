@@ -8,5 +8,6 @@ ROS2 Workspace repository for ERCxQSTP'24 weekly Tasks.
 .
 ├── README.md
 └── src
-    └── week1
+    ├── week1
+    └── week2
 ```
