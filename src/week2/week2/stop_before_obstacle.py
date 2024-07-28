@@ -12,7 +12,7 @@ class StopBeforeObstacle(Node):
         self.scan_subscription = self.create_subscription(
             LaserScan, "/scan", self.scan_callback, 10
         )
-        self.minimum_obstacle_distance = 1.0
+        self.minimum_obstacle_distance = 0.1
         self.vel_msg = Twist()
         self.vel_msg.linear.x = 0.5
         self.get_logger().info("Stop Before Obstacle Node started.")
