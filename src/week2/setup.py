@@ -22,6 +22,7 @@ setup(
             "move_turtlebot = week2.move_turtlebot:main",
             "move_to_goal = week2.move_to_goal:main",
             "stop_before_obstacle = week2.stop_before_obstacle:main",
+            "keyboard_control = week2.keyboard_control:main",
         ],
     },
 )
