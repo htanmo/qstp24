@@ -29,9 +29,9 @@ class StopBeforeObstacle(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    sto = StopBeforeObstacle()
-    rclpy.spin(sto)
-    sto.destroy_node()
+    sbo = StopBeforeObstacle()
+    rclpy.spin(sbo)
+    sbo.destroy_node()
     rclpy.shutdown()
 
 if __name__ == "__main__":
