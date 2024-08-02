@@ -1,4 +1,4 @@
-# QSTP'24
+# ERCxQSTP'24
 
 ROS2 Workspace repository for ERCxQSTP'24 weekly Tasks.
 
@@ -9,5 +9,6 @@ ROS2 Workspace repository for ERCxQSTP'24 weekly Tasks.
 ├── README.md
 └── src
     ├── week1
-    └── week2
+    ├── week2
+    └── week3
 ```
