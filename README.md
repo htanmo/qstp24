@@ -1,6 +1,6 @@
 # ERCxQSTP'24
 
-ROS2 Workspace repository for ERCxQSTP'24 weekly Tasks.
+ROS2 humble Workspace repository for ERCxQSTP'24 weekly Tasks.
 
 ## Project Structure
 
@@ -10,5 +10,6 @@ ROS2 Workspace repository for ERCxQSTP'24 weekly Tasks.
 └── src
     ├── week1
     ├── week2
-    └── week3
+    ├── week3A
+    └── week3B
 ```
