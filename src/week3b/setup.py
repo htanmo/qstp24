@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'week3B'
+package_name = 'week3b'
 
 setup(
     name=package_name,
@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'path_planning = week3B.path_planning:main',
-            'navigation_node = week3B.navigation_node:main',
+            'path_planning = week3b.path_planning:main',
+            'navigation_node = week3b.navigation_node:main',
         ],
     },
 )

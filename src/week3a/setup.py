@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'week3A'
+package_name = 'week3a'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'pid_controller = week3A.pid_controller:main'
+            'pid_controller = week3a.pid_controller:main'
         ],
     },
 )

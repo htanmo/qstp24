@@ -20,13 +20,13 @@ class PIDController(Node):
         self.yaw = 0.0
 
         # PID constants
-        self.kp_linear = 1.0
-        self.ki_linear = 0.0
-        self.kd_linear = 0.0
+        self.kp_linear = 0.5
+        self.ki_linear = 0.5
+        self.kd_linear = 0.5
 
-        self.kp_angular = 4.0
-        self.ki_angular = 0.0
-        self.kd_angular = 0.0
+        self.kp_angular = 0.5
+        self.ki_angular = 0.5
+        self.kd_angular = 0.5
 
         # Errors for PID
         self.previous_error_linear = 0.0
@@ -94,7 +94,7 @@ def main(args=None):
     pid_controller = PIDController()
 
     # Goal
-    pid_controller.set_goal(4.0, 4.0)
+    pid_controller.set_goal(1.0, 1.0)
 
     rclpy.spin(pid_controller)
     pid_controller.destroy_node()
